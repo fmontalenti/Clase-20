@@ -1,0 +1,96 @@
+nav {
+    color: crimson;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 55px;
+    justify-content: center;
+    padding-left: 10px;
+    height: auto;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu {
+    justify-content: center;
+    padding-right: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  #banner {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  .somos {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loguitos {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .linkedin,
+  .git {
+    width: 60px;
+    height: auto;
+    margin-right: 10%;
+  }
+  .linkedin img,
+  .git img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .logoDos {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .logoDos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .texto {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  h1 {
+    color: crimson;
+  }
+  p {
+    width: 800px;
+  }
+  .user {
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: space-evenly; 
+      margin-top: 3%;
+      
+  }
+  .desarrollo {
+
+  }
+  
+  }
+  
+  @media (min-width: 600px) {
+    #menu {
+      display: none;   
+      
+  }
