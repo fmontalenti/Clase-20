@@ -83,10 +83,16 @@ nav {
       margin-top: 3%;
       
   }
-  .desarrollo {
-
+  .avatar, .desarrollo {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      text-align: center;
   }
-  
+  .desarrollo {
+      margin-left: 10px;
+  }
   }
   
   @media (min-width: 600px) {
