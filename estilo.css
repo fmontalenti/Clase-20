@@ -100,11 +100,38 @@ nav {
     background-color: black;
     height: 80px;
     display: flex;
+   align-items: center;
+  justify-content: space-between;
   }
   .pie {
-    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     }
+  .mail {
+    width: 50px;
+    height: auto;
+    margin-left: 20px; 
+  }   
+  .mail img{
+    width: 100%;
+    height: auto;
+  }   
+  .logosfooter {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    }
+  .fb, .instagram, .tuiter{
+      width: 60px;
+    height: auto;
+    margin-right: 10%;
   }
-
+  
+  .fb img, .instagram img, .tuiter img {
+    width: 100%;
+    height: auto;
+  }
   
   @media (min-width: 600px) {
     #menu {
