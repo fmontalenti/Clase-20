@@ -92,8 +92,19 @@ nav {
   }
   .desarrollo {
       margin-left: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 24px;
+      color: #EB8B58;
   }
+  footer {
+    background-color: black;
+    height: 80px;
+    display: flex;
   }
+  .pie {
+    height: 80px;
+  }
+
   
   @media (min-width: 600px) {
     #menu {
