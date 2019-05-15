@@ -1,5 +1,5 @@
 nav {
-    color: crimson;
+    color: orangered;
     background-color: black;
     height: 70px;
     display: flex;
@@ -21,7 +21,10 @@ nav {
     justify-content: center;
     padding-right: 20px;
   }
-  
+  #menu {
+    display: none;
+  }
+   
   header {
     display: flex;
     justify-content: center;
@@ -109,9 +112,10 @@ nav {
       }
   .email {
     text-align: left;
-    color: white;
+    color: orangered;
     margin-left: 10px;
-    
+    font-size: 22px;
+
     
   }    
   
@@ -141,8 +145,18 @@ nav {
     height: auto;
   }
   
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
+    .menu {
+      display: none;
+    }
     #menu {
-      display: none;   
-      
-  }
+      display: flex;
+    }
+    .user {
+      flex-direction: column;
+    }
+    footer {
+       flex-direction: column;
+      align-items: center; 
+      }
+     }
