@@ -98,29 +98,37 @@ nav {
   }
   footer {
     background-color: black;
-    height: 80px;
-    display: flex;
-   align-items: center;
-  justify-content: space-between;
+    height: 60px;
+   
+  
   }
   .pie {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     }
+      }
+  .email {
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+    
+    
+  }    
+  
+    
   .mail {
     width: 50px;
     height: auto;
     margin-left: 20px; 
-  }   
+      }   
   .mail img{
     width: 100%;
     height: auto;
   }   
   .logosfooter {
     display: flex;
-    justify-content: flex-end;
     justify-content: space-around;
+    
     }
   .fb, .instagram, .tuiter{
       width: 60px;
